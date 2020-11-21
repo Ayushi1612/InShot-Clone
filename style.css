@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* to add a same padding to all  */
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+/* @media (max-width: 500) and (min-width: 300px) {
+  .na {
+    background-color: lawngreen;
+  }
+} */
+.na {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+@media screen and (max-width:500) {
+    background-color: green;
+    
+}
+  }
+  
+/* first box  */
+
+/* adding background img to first  */
+.first {
+  background-image: url("images/background1.jpg");
+  background-size: 1600px 1000px;
+  padding-top: 100px;
+  background-attachment: fixed;
+  background-position: initial;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.rt,
+.heading {
+  padding-top: 50px;
+}
+
+.paddingTop {
+  padding-top: 50px;
+}
+
+/* to increase the width of heading so that with inshot come in next line  */
+.main-heading-first {
+  width: 600px;
+}
+
+/* grey to font color  */
+.main-heading-first > p {
+  font-size: 40px;
+  color: rgb(88, 85, 85);
+}
+
+/* styling the app store and google play */
+.app > div {
+  padding: 10px 0px;
+}
+
+/* second  */
+
+/* adding background img to second  */
+.second {
+  background-image: url("images/background2.jpg");
+  background-repeat: no-repeat;
+  background-color: rgba(24, 23, 23, 0.89);
+  height: 700px;
+}
+
+.main-heading-second {
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+.points {
+  font-size: 30px;
+  color: white;
+  padding-top: 40px;
+}
+
+.points > p {
+  padding: 5px 0px;
+}
+
+/* styling left img  */
+.left {
+  width: 1000px;
+  padding-top: 160px;
+}
+
+.first-row {
+  display: flex;
+  padding: 0px 100px;
+}
+
+.add-icon {
+  height: 70px;
+}
+
+.trim-video,
+.trim-video-p {
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+
+.second-row {
+  /* cut-video ,.cut-video-p{ */
+  padding: 15px 400px;
+}
+
+.third-row {
+  /* .multi-split ,.multi-split-p{ */
+  padding: 15px 500px;
+}
+.trim-video-p,
+.cut-video-p,
+.multi-split-p {
+  font-size: 25px;
+  color: rgb(184, 178, 178);
+  width: 500px;
+}
+
+.third {
+  background-image: url("images/filter-effects.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 590px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 50px;
+  color: rgb(94, 94, 24);
+}
+
+.imgs {
+  padding-top: 54px;
+}
+
+.border-img {
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-bottom: 34px solid white;
+}
+
+.border-img > p {
+  position: absolute;
+  background-color: white;
+  color: black;
+}
+
+/* fourth */
+.fourth {
+  background-color: rgba(0, 0, 0, 0.843);
+}
+
+.fourth-left {
+  padding-top: 30px;
+}
+.fourth-left {
+  width: 700px;
+}
+.fourth-rt > p {
+  color: white;
+}
+
+.heading-fourth {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.points-fourth {
+  color: white;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.points-fourth > p {
+  padding-top: 10px;
+}
+
+.words {
+  padding-top: 90px;
+}
+
+.music {
+  padding-top: 50px;
+}
+
+.music > img {
+  width: 450px;
+}
+
+.last {
+  background-image: url("images/last.jpg");
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-last {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.content-last {
+  padding-top: 50px;
+}
+
+.heading-last {
+  padding-bottom: 25px;
+}
+
+.points-last > p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.843);
+}
+footer > .footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer > div {
+  height: 70px;
+}
+.footer-content > div > p {
+  color: rgb(161, 159, 159);
+}
+
+.footer-content > div > p > span {
+  color: rgb(104, 102, 102);
+}
+
+/* media query for making resp  */
+/* for small screens */
+
+/* @media screen and (min-width: 1440px) {
+    #gallery-1 img {width:428px;}
+}
+@media screen and (min-width: 1600px) {
+    #gallery-1 img {width:434px;}
+}
+@media screen and (min-width: 1920px) {
+    #gallery-1 img {width:540px;}
+} */
